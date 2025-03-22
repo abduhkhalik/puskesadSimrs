@@ -387,8 +387,8 @@ export const dataModules = [
   },
   {
     title: "Rumkit Tk.IV dr. R. Ismoyo Kendari",
-    img: "",
-    link: "",
+    img: "https://i.imgur.com/xgoUOSY.jpeg",
+    link: import.meta.env.VITE_ISMOYO,
     satuan: "Kesdam XIV/Hsn",
   },
   {
