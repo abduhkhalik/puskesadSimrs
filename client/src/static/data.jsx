@@ -19,6 +19,7 @@ export const dataModules = [
     link: import.meta.env.VITE_LHOKSEUMAWE,
     satuan: "Kesdam IM",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV Meulaboh",
     img: "",
@@ -46,15 +47,16 @@ export const dataModules = [
   {
     title: "Rumkit Tk.IV Padang Sidempuan",
     img: "https://i.imgur.com/ONutlU8.jpeg",
-    link: "#",
+    link: import.meta.env.VITE_PADANGSIDEMPUAN,
     satuan: "Kesdam I/BB",
   },
   {
     title: "Rumkit Tk.IV Bukit Tinggi",
     img: "https://i.imgur.com/4IJykUd.jpeg",
-    link: "#",
+    link: import.meta.env.VITE_BUKITTINGGI,
     satuan: "Kesdam I/BB",
   },
+  // Belum ada
   {
     title: "Rumkit Tk.IV Pekan Baru",
     img: "",
@@ -64,7 +66,7 @@ export const dataModules = [
   {
     title: "Rumkit Tk.IV Binjai",
     img: "https://i.imgur.com/98InRno.jpeg",
-    link: "#",
+    link: import.meta.env.VITE_BINJAI,
     satuan: "Kesdam I/BB",
   },
   {
@@ -91,6 +93,7 @@ export const dataModules = [
     link: import.meta.env.VITE_NOESMIR,
     satuan: "Kesdam II/SWJ",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV Lahat",
     img: "https://i.imgur.com/xG3JlUp.jpeg",
@@ -109,6 +112,7 @@ export const dataModules = [
     link: import.meta.env.VITE_LAMPUNGIV,
     satuan: "Kesdam II/SWJ",
   },
+  // Belum ada link
   {
     title: "Rumkit Tk.IV Batin Tikal Pangkal Pinang",
     img: "https://i.imgur.com/vtzQNLG.jpeg",
@@ -193,12 +197,14 @@ export const dataModules = [
     link: import.meta.env.VITE_ASMIR,
     satuan: "Kesdam IV/Dip",
   },
+  // belum ada link
   {
     title: "Rumkitban Kudus",
     img: "",
     link: "#",
     satuan: "Kesdam IV/Dip",
   },
+  // Belum ada link
   {
     title: "Rumkitban Blora",
     img: "https://i.imgur.com/bMKYBlB.jpeg",
@@ -225,22 +231,25 @@ export const dataModules = [
   },
   {
     title: "Rumkit Tk.IV Madiun",
-    img: "",
-    link: "#",
+    img: "https://i.imgur.com/VfXaq0a.jpeg",
+    link: import.meta.env.VITE_MADIUN,
     satuan: "Kesdam V/Brw",
   },
+
   {
     title: "Rumkit Tk. IV/Kediri",
     img: "",
-    link: "#",
+    link: import.meta.env.VITE_KEDIRI,
     satuan: "Kesdam V/Brw",
   },
+  // belum add
   {
     title: "Rumkitban Bhirawa Bhakti Malang",
     img: "",
     link: "#",
     satuan: "Kesdam V/Brw",
   },
+  // Belum ada
   {
     title: "Rumkitban Lawang",
     img: "",
@@ -259,6 +268,7 @@ export const dataModules = [
     link: import.meta.env.VITE_BANSURABAYA,
     satuan: "Kesdam V/Brw",
   },
+  // Belum ada
   {
     title: "Rumkit Tk.II dr. Hardjanto Balikpapan",
     img: "https://i.imgur.com/C21m4Vd.jpeg",
@@ -274,15 +284,16 @@ export const dataModules = [
   {
     title: "Rumkit Tk.IV Guntung Payung",
     img: "",
-    link: "#",
+    link: import.meta.env.VITE_GUNTUNG,
     satuan: "Kesdam VI/Mlw",
   },
   {
     title: "Rumkit Tk.IV awang long Samarinda",
     img: "https://i.imgur.com/WhZ9xpz.jpeg",
-    link: "#",
+    link: import.meta.env.VITE_AWANG,
     satuan: "Kesdam VI/Mlw",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV Abdul Rais Fatah Tanjung Selor",
     img: "",
@@ -301,30 +312,36 @@ export const dataModules = [
     link: import.meta.env.VITE_WIRA_SAKTI,
     satuan: "Kesdam IX/Udy",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV Singaraja",
     img: "https://i.imgur.com/F3FZVvp.jpeg",
     link: "#",
     satuan: "Kesdam IX/Udy",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV Wira Bhakti Mataram",
     img: "https://i.imgur.com/dCTl7iX.jpeg",
     link: "#",
     satuan: "Kesdam IX/Udy",
   },
+
+  // belum ada
   {
     title: "Rumkit Tk.IV Sultan Abdul Kahir II Bima",
     img: "",
     link: "#",
     satuan: "Kesdam IX/Udy",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV 09.07.04 Ignatius Sumantri Atambua",
     img: "",
     link: "#",
     satuan: "Kesdam IX/Udy",
   },
+  // belum ada
   {
     title: "Rumkit Tk.II Kartika Husada, Pontianak",
     img: "https://i.imgur.com/N6mJK8N.jpeg",
@@ -343,6 +360,7 @@ export const dataModules = [
     link: import.meta.env.VITE_SINTANG,
     satuan: "Kesdam XII/Tpr",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV Palangkaraya",
     img: "",
@@ -351,7 +369,7 @@ export const dataModules = [
   },
   {
     title: "Rumkit Tk.II RW. Mongisidi, Manado",
-    img: "https://i.imgur.com/ARg8O9n.jpeg",
+    img: "https://i.imgur.com/BegKHIV.jpeg",
     link: import.meta.env.VITE_MONGINSIDI,
     satuan: "Kesdam XIII/Mdk",
   },
@@ -367,6 +385,7 @@ export const dataModules = [
     link: import.meta.env.VITE_YANTO,
     satuan: "Kesdam XIII/Mdk",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV dr. Eddy Kounang Gorontalo",
     img: "",
@@ -379,6 +398,7 @@ export const dataModules = [
     link: import.meta.env.VITE_PELAMONIA,
     satuan: "Kesdam XIV/Hsn",
   },
+  // belum ada
   {
     title: "Rumkit Tk.IV dr. Soemantri Pare-Pare",
     img: "https://i.imgur.com/6yrm7pO.jpeg",
@@ -399,7 +419,7 @@ export const dataModules = [
   },
   {
     title: "Rumkit Tk.II Moh Ridwan Meuraksa",
-    img: "https://i.imgur.com/mqMsJ6p.jpeg",
+    img: "https://i.imgur.com/2dbhVKB.jpeg",
     link: import.meta.env.VITE_RSRIDWAN,
     satuan: "Kesdam Jaya",
   },
@@ -409,10 +429,11 @@ export const dataModules = [
     link: import.meta.env.VITE_MOGOT,
     satuan: "Kesdam Jaya",
   },
+  // 
   {
     title: "Rumkit Tk.IV Cijantung",
     img: "",
-    link: "",
+    link: import.meta.env.VITE_CIJANTUNG,
     satuan: "Kesdam Jaya",
   },
   {
