@@ -338,7 +338,7 @@ export const dataModules = [
   {
     title: "Rumkit Tk.IV 09.07.04 Ignatius Sumantri Atambua",
     img: "",
-    link: "#",
+    link: import.meta.env.VITE_IGNATIUS,
     satuan: "Kesdam IX/Udy",
   },
   // belum ada
